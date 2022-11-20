@@ -1,0 +1,2 @@
+cdk synth
+cdk deploy
