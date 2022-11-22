@@ -10,7 +10,7 @@ This is a Spring Boot Maven based project. It can be used to create AWS lambda i
 4) CDK installed
 
 ## How to run the project
-1) On line 31, inside the double quotes, give the absolute path of the aws jar, placed on local storage - a sample path has been provided
+1) Inside CdkDummyStack.java file, on line 31, give the absolute path of the aws jar placed on local storage, inside the double quotes - a sample path has already been provided
 2) In terminal or the command line, navigate to the project directory
 3) Now run the following commands on command line inside the project directory:
     1) cdk synth
