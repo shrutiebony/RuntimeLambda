@@ -11,9 +11,9 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 4) CDK installed
 
 ## How to run the project
-1) On line 31, inside the double quotes, give the absolute path of the aws jar, placed on local storage
+1) On line 31, inside the double quotes, give the absolute path of the aws jar, placed on local storage - a sample path has been provided
 2) In terminal or the command line, navigate to the project directory
-3) Now run the following commands:
+3) Now run the following commands on command line inside the project directory:
     1) cdk synth
     2) cdk bootstrap 
     3) cdk deploy 
@@ -25,4 +25,3 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk diff`        compare deployed stack with current state
  * `cdk docs`        open CDK documentation
 
-Enjoy!
