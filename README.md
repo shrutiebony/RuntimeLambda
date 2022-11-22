@@ -1,8 +1,7 @@
 # Runtime Lambda project
 
 
-It is a [Maven](https://maven.apache.org/) based project, so you can open this project with any Maven compatible Java IDE to build and run tests.
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+This is a Spring Boot Maven based project. It can be used to create AWS lambda infrastructure at runtime and deploy a spring boot application, kept on your local storage, on it, also at runtime.
 
 ## Pre-requisites
 1) Java
