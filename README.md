@@ -14,9 +14,10 @@ This is a Spring Boot Maven based project. It can be used to create AWS lambda i
 2) In terminal or the command line, navigate to the project directory
 3) Now run the following commands on command line inside the project directory:
     1) cdk synth
-    2) cdk bootstrap - it will by default take the credentials provided during CLI configuration
+    2) cdk bootstrap 
     3) cdk deploy 
-
+   
+NOTE: CDK bootstrap will by default take the credentials provided during CLI configuration
 ## Few other useful commands
 * `cdk ls`          list all stacks in the app
  * `cdk synth`       emits the synthesized CloudFormation template
